@@ -1,1 +1,12 @@
 <app-ng-for-example></app-ng-for-example>
+<div [ngClass]="{ bordered: false }">
+    This is never bordered
+</div>
+
+<div [ngClass]="{ bordered: true }">
+    This is always bordered
+</div>
+
+<div [ngClass]="{ transparent: isTransparent }">
+    This is trasparent if "isTransparent" class property evaluates to "true"
+</div>
