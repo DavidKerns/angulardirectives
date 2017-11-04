@@ -23,4 +23,7 @@ export class NgForExampleComponent  {
        category: 'reptile',
        name: 'Snake'
    }];
+   animalTrackerFunction(index: number, animal: any) {
+    return animal.id;
+}
  }
